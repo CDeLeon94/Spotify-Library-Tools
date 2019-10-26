@@ -1,0 +1,164 @@
+Scene: SpotifyShortcuts
+	P:600x1200	L:-1x-1 
+
+		Orientation: System
+		Background Colour: #ff777777
+		Action Bar Style: System
+		Title: Shortify Menu
+		Subtitle: 
+		Icon: null
+		Tab Labels: 
+
+Element: Button1/Button
+	Geometry:
+		P:0,197 190x190 L:115,110 80x80
+	Content:
+		Label: Happy Music
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: ffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 35
+
+Element: Button2/Button
+	Geometry:
+		P:410,403 190x190 L:5,200 190x190
+	Content:
+		Label: Cath
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 29
+
+Element: Button3/Button
+	Geometry:
+		P:206,197 190x190 L:5,405 190x190
+	Content:
+		Label: Vocal Rock
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 40
+
+Element: Button4/Button
+	Geometry:
+		P:206,403 190x190 L:5,600 190x190
+	Content:
+		Label: HipHop
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: FFffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 27
+
+Element: Button5/Button
+	Geometry:
+		P:410,197 190x190 L:5,800 190x190
+	Content:
+		Label: Blog
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 44
+
+Element: Button6/Button
+	Geometry:
+		P:408,1009 190x190 L:210,576 190x190
+	Content:
+		Label: DEL CUR TRACK
+		Label Size: 8
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 47
+
+Element: Button7/Button
+	Geometry:
+		P:410,815 190x190 L:200,400 190x190
+	Content:
+		Label: Shfl Plylst
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 48
+
+Element: Checkbox/Toggle
+	Geometry:
+		P:125,0 350x190 L:228,734 172x171
+	Content:
+		On: On
+		Off Label: Leaving current playlist alone
+		On Label: Removing from current playlist
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 60
+
+Element: Button8/Button
+	Geometry:
+		P:410,609 190x190 L:172,630 210x434
+	Content:
+		Label: chill
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 41
+
+Element: Button9/Button
+	Geometry:
+		P:0,403 190x190 L:213,421 210x434
+	Content:
+		Label: Prog Rep
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 43
+
+Element: Button10/Button
+	Geometry:
+		P:206,609 190x190 L:196,407 210x392
+	Content:
+		Label: French
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFffffff
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 49
+
